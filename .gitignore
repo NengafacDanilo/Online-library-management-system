@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables (DO NOT COMMIT)
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+/backend/dist
+/frontend/dist
+/frontend/build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Database
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
