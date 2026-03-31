@@ -1,0 +1,14 @@
+{
+  "name": "lms-backend",
+  "version": "1.0.0",
+  "description": "Online Library Management System Backend",
+  "main": "backend/src/server.js",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "cd backend && node src/server.js",
+    "postinstall": "cd backend && npm install"
+  }
+}
